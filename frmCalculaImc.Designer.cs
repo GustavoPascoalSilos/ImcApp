@@ -126,7 +126,10 @@
             seta.SizeMode = PictureBoxSizeMode.StretchImage;
             seta.TabIndex = 4;
             seta.TabStop = false;
+
             seta.Visible = false;
+
+
             // 
             // lblResultado
             // 
