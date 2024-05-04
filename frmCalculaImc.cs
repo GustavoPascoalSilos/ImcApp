@@ -24,6 +24,7 @@ namespace ImcApp
             lblResultado.Text = imc.ToString("N2");
 
             if (imc <= 18.5m)
+            {
                 seta.Location = new Point(357, 392);
             else if (imc > 18.5m && imc <= 24.9m)
                 seta.Location = new Point(461, 392);
